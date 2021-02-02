@@ -1,0 +1,13 @@
+[bar/mybar]
+modules-right = date
+override-redirect = true
+;wm-restack = i3
+height = 22
+enable-ipc = true
+
+[module/date]
+type = internal/date
+date = %Y-%m-%d%
+
+
+
